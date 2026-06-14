@@ -11,7 +11,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), db(""), identifier(&db)
 {
     setWindowTitle("Système d'Identification Visuelle d'Appareils");
-    setWindowIcon(QIcon(":/icons/app.png"));
     setGeometry(100, 100, 1000, 650);
 
     // Initialize database

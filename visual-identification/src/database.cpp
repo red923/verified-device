@@ -74,7 +74,7 @@ void Database::populateDefaultObjects()
         // Avions
         {0, "Avion Léger Civil", "Elliptique", 1, 1, "Élancé", 0, 0, 1, 1, true, false, "Moyen (2m - 10m)", "Petit avion civil avec queue visible"},
         {0, "Avion Commercial", "Elliptique", 1, 1, "Élancé", 0, 0, 2, 4, true, false, "Très grand (> 30m)", "Avion de ligne avec réacteurs"},
-        {0, "Avion Militaire Chasse", "Delta", 1, 1, "Mince et effilé", 0, 0, 1, 2, true, true, "Moyen (2m - 10m)", "Avion de chasse avec silhouette agressive"},
+        {0, "Avion Militaire Chasse", "Delta", 1, 1, "Mince et effilé", 0, 0, 1, 2, true, true, "Moyen (2m - 10m)", "Avion de chase avec silhouette agressive"},
         {0, "Avion Bombardier", "Rectangulaire", 1, 1, "Élancé", 0, 0, 2, 4, true, true, "Grand (10m - 30m)", "Bombardier lourd avec armes visibles"},
         
         // Hélicoptères
