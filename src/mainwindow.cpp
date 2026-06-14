@@ -10,7 +10,6 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), db(""), identifier(&db)
 {
     setWindowTitle("Système d'Identification d'Objets");
-    setWindowIcon(QIcon(":/icons/app.png"));
     setGeometry(100, 100, 1200, 700);
 
     // Initialize database

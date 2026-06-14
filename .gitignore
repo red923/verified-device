@@ -1,36 +1,16 @@
-# Build
+.gitignore
+Debug/
+Release/
 build/
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
 Makefile
+*.user
 *.o
-*.a
-*.so
-*.dylib
-*.dll
+*.obj
+*.moc
+*.ui.h
 *.exe
-
-# Qt
-moc_*.cpp
-qrc_*.cpp
-ui_*.h
-.qmake.stash
-*.pro.user
-*.pro.user.*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Executables
 ObjectIdentification
+.qmake.stash
+moc_*.cpp
+ui_*.h
+*.pro.user*
