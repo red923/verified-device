@@ -1,0 +1,36 @@
+# Build
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Qt
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+.qmake.stash
+*.pro.user
+*.pro.user.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Executables
+ObjectIdentification
